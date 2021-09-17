@@ -11,6 +11,6 @@ app-crypt/certbot-dns-ovh 1.10.1 1.11.0 1.13.0: OVH DNS plugin for Certbot (Let'
 app-crypt/certbot-dns-rfc2136 1.10.1 1.11.0 1.13.0 9999: RFC2136 DNS plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-route53 1.10.1 1.11.0 1.13.0: Route53 DNS plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-sakuracloud 1.10.1 1.11.0 1.13.0: Sakura Cloud DNS plugin for Certbot (Let's Encrypt Client)
-dev-python/cloudflare 2.8.15 2.8.15-r1: Python wrapper for the Cloudflare v4 API
+dev-python/cloudflare 2.8.15-r2: Python wrapper for the Cloudflare v4 API
 dev-python/jsonlines 2.0.0: Library with helpers for the jsonlines file format
 dev-python/python-digitalocean 1.13.2 1.16.0: digitalocean.com API to manage Droplets and Images
