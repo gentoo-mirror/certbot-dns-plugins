@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=(python3_{7..9})
+PYTHON_COMPAT=(python3_{8..9})
 DISTUTILS_USE_SETUPTOOLS=rdepend
 
 if [[ ${PV} == 9999* ]]; then
@@ -17,14 +17,14 @@ fi
 
 inherit distutils-r1
 
-DESCRIPTION="DigitalOcean DNS plugin for Certbot (Let's Encrypt Client)"
+DESCRIPTION="Google Cloud DNS plugin for Certbot (Let's Encrypt Client)"
 HOMEPAGE="https://github.com/certbot/certbot https://letsencrypt.org/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 IUSE=""
 
-RDEPEND=">=app-crypt/certbot-1.1.0[${PYTHON_USEDEP}]
-	>=app-crypt/acme-0.29.0[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
-	>=dev-python/python-digitalocean-1.15[${PYTHON_USEDEP}]"
+RDEPEND=">=app-crypt/certbot-${PV}[${PYTHON_USEDEP}]
+	>=app-crypt/acme-${PV}[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.5.5[${PYTHON_USEDEP}]
+	>=dev-python/oauth2client-4.0[${PYTHON_USEDEP}]"

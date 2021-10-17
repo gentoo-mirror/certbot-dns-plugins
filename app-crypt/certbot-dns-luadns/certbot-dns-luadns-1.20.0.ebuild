@@ -1,8 +1,8 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
-PYTHON_COMPAT=(python3_{6,7,8,9})
+EAPI=8
+PYTHON_COMPAT=(python3_{8..9})
 DISTUTILS_USE_SETUPTOOLS=rdepend
 
 if [[ ${PV} == 9999* ]]; then
@@ -24,7 +24,6 @@ LICENSE="Apache-2.0"
 SLOT="0"
 IUSE=""
 
-RDEPEND=">=app-crypt/certbot-1.1.0[${PYTHON_USEDEP}]
-	>=app-crypt/acme-0.31.0[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
-	>=dev-python/dns-lexicon-2.2.1[${PYTHON_USEDEP}]"
+RDEPEND=">=app-crypt/certbot-${PV}[${PYTHON_USEDEP}]
+	>=app-crypt/acme-${PV}[${PYTHON_USEDEP}]
+	>=dev-python/dns-lexicon-3.2.1[${PYTHON_USEDEP}]"

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=(python3_{7..9})
+PYTHON_COMPAT=(python3_{8..9})
 DISTUTILS_USE_SETUPTOOLS=rdepend
 
 if [[ ${PV} == 9999* ]]; then
@@ -26,5 +26,4 @@ IUSE=""
 
 RDEPEND=">=app-crypt/certbot-${PV}[${PYTHON_USEDEP}]
 	>=app-crypt/acme-${PV}[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
-	>=dev-python/dns-lexicon-3.1.0[${PYTHON_USEDEP}]"
+	>=dev-python/dns-lexicon-3.2.1[${PYTHON_USEDEP}]"
