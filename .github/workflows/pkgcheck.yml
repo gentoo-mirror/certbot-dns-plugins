@@ -3,14 +3,15 @@ name: pkgcheck
 on:
   push:
     branches:
-      - master
+      - main
       - development
     paths:
       - 'app-crypt/**'
       - 'dev-python/**'
+      - '.github/workflows/**'
   pull_request:
     branches:
-      - master
+      - main
       - development
     paths:
       - 'app-crypt/**'
