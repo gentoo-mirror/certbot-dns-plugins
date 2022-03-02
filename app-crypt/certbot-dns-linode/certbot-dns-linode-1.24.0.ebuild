@@ -1,8 +1,8 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=(python3_{7..9})
+PYTHON_COMPAT=(python3_{8..10})
 DISTUTILS_USE_SETUPTOOLS=rdepend
 
 if [[ ${PV} == 9999* ]]; then
@@ -17,7 +17,7 @@ fi
 
 inherit distutils-r1
 
-DESCRIPTION="Gehirn Infrastructure Service DNS plugin for Certbot (Let's Encrypt Client)"
+DESCRIPTION="Linode DNS plugin for Certbot (Let's Encrypt Client)"
 HOMEPAGE="https://github.com/certbot/certbot https://letsencrypt.org/"
 
 LICENSE="Apache-2.0"
