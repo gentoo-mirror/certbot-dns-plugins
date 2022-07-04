@@ -4,13 +4,13 @@ app-crypt/certbot-dns-digitalocean 1.22.0 1.23.0 1.24.0: DigitalOcean DNS plugin
 app-crypt/certbot-dns-dnsimple 1.22.0 1.23.0 1.24.0: DNSimple DNS plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-dnsmadeeasy 1.22.0 1.23.0 1.24.0: DNS Made Easy DNS plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-gehirn 1.22.0 1.23.0 1.24.0: Gehirn Infrastructure Service DNS plugin for Certbot (Let's Encrypt Client)
-app-crypt/certbot-dns-google 1.22.0 1.23.0 1.24.0 1.24.0-r1: Google Cloud DNS plugin for Certbot (Let's Encrypt Client)
+app-crypt/certbot-dns-google 1.24.0-r1: Google Cloud DNS plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-linode 1.22.0 1.23.0 1.24.0: Linode DNS plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-luadns 1.22.0 1.23.0 1.24.0: LuaDNS plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-ovh 1.22.0 1.23.0 1.24.0: OVH DNS plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-rfc2136 1.22.0 1.23.0 1.24.0: RFC2136 DNS plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-route53 1.22.0 1.23.0 1.24.0: Route53 DNS plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-sakuracloud 1.22.0 1.23.0 1.24.0: Sakura Cloud DNS plugin for Certbot (Let's Encrypt Client)
-dev-python/cloudflare 2.8.15-r2 2.8.15-r3: Python wrapper for the Cloudflare v4 API
-dev-python/jsonlines 2.0.0 2.0.0-r1: Library with helpers for the jsonlines file format
-dev-python/python-digitalocean 1.13.2 1.16.0 1.17.0: digitalocean.com API to manage Droplets and Images
+dev-python/cloudflare 2.8.15-r3: Python wrapper for the Cloudflare v4 API
+dev-python/jsonlines 2.0.0-r1: Library with helpers for the jsonlines file format
+dev-python/python-digitalocean 1.17.0: digitalocean.com API to manage Droplets and Images
