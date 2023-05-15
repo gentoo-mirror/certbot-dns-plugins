@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=(python3_{8..10})
+PYTHON_COMPAT=( python3_{10..11} )
 DISTUTILS_USE_SETUPTOOLS=rdepend
 
 if [[ ${PV} == 9999* ]]; then
@@ -17,14 +17,14 @@ fi
 
 inherit distutils-r1
 
-DESCRIPTION="RFC2136 DNS plugin for Certbot (Let's Encrypt Client)"
+DESCRIPTION="Google Cloud DNS plugin for Certbot (Let's Encrypt Client)"
 HOMEPAGE="https://github.com/certbot/certbot https://letsencrypt.org/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 IUSE=""
 
-RDEPEND="${CDEPEND}
-	>=app-crypt/certbot-${PV}[${PYTHON_USEDEP}]
+RDEPEND=">=app-crypt/certbot-${PV}[${PYTHON_USEDEP}]
 	>=app-crypt/acme-${PV}[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]"
+	>=dev-python/google-api-python-client-1.6.5[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-2.16.0[${PYTHON_USEDEP}]"
