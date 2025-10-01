@@ -18,14 +18,12 @@ fi
 
 inherit distutils-r1
 
-DESCRIPTION="Route53 DNS plugin for Certbot (Let's Encrypt Client)"
+DESCRIPTION="DigitalOcean DNS plugin for Certbot (Let's Encrypt Client)"
 HOMEPAGE="https://github.com/certbot/certbot https://letsencrypt.org/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 IUSE=""
 
-RDEPEND="${CDEPEND}
-	>=app-crypt/certbot-${PV}[${PYTHON_USEDEP}]
-	>=app-crypt/acme-${PV}[${PYTHON_USEDEP}]
-	>=dev-python/boto3-1.15.15[${PYTHON_USEDEP}]"
+RDEPEND=">=app-crypt/certbot-${PV}[${PYTHON_USEDEP}]
+	>=dev-python/python-digitalocean-1.15[${PYTHON_USEDEP}]"

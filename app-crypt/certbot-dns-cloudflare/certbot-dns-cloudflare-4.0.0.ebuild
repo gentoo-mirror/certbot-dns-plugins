@@ -18,7 +18,7 @@ fi
 
 inherit distutils-r1
 
-DESCRIPTION="DNSimple DNS plugin for Certbot (Let's Encrypt Client)"
+DESCRIPTION="Cloudflare DNS plugin for Certbot (Let's Encrypt Client)"
 HOMEPAGE="https://github.com/certbot/certbot https://letsencrypt.org/"
 
 LICENSE="Apache-2.0"
@@ -26,5 +26,4 @@ SLOT="0"
 IUSE=""
 
 RDEPEND=">=app-crypt/certbot-${PV}[${PYTHON_USEDEP}]
-	>=app-crypt/acme-${PV}[${PYTHON_USEDEP}]
-	>=dev-python/dns-lexicon-3.2.1[${PYTHON_USEDEP}]"
+	>=dev-python/cloudflare-2.19.0[${PYTHON_USEDEP}]"
