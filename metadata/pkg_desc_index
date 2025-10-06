@@ -1,4 +1,4 @@
-app-crypt/certbot-dns-cloudflare 4.0.0: Cloudflare DNS plugin for Certbot (Let's Encrypt Client)
+app-crypt/certbot-dns-cloudflare 4.0.0-r1: Cloudflare DNS plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-digitalocean 4.0.0: DigitalOcean DNS plugin for Certbot (Let's Encrypt Client)
 dev-python/cloudflare 2.19.4: Python wrapper for the Cloudflare v4 API
 dev-python/jsonlines 4.0.0: Library with helpers for the jsonlines file format
